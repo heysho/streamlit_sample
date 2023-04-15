@@ -1,5 +1,4 @@
 import streamlit as st
-from PIL import Image
 
 #テキスト関連
 
@@ -14,10 +13,6 @@ import streamlit as st
 st.title('Shoアプリ')
 '''
 st.code(code, language='python')
-
-# 画像
-image = Image.open('ai-shiba.png')
-st.image(image, width=200)
 
 with st.form(key='profile_form'):
     # テキストボックス  
